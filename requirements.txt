@@ -1,0 +1,5 @@
+-e https://github.com/m-labs/migen.git
+-e ./litex-core
+-e ./litedram
+-e ./liteeth
+-e ./litesata
