@@ -21,13 +21,15 @@ git submodule update --init --recursive
 
 # Install the requirements for the CPUs you want to use, this will also install
 # any common requirements.
-pip install --user ./requirements/vexriscv.txt
+pip install --user -r ./requirements/vexriscv.txt
 
 # Download and install a RISCV C compiler
 XXXXXX
 ```
 
-### Install system wide
+### Install system wide (not recommend)
+
+Installing system wide is **not** recommended. It does work okay on Windows.
 
 ```shell-session
 # Make sure you have all the submodules
@@ -35,7 +37,7 @@ git submodule update --init --recursive
 
 # Install the requirements for the CPUs you want to use, this will also install
 # any common requirements.
-sudo pip install requirements/vexriscv.txt
+sudo pip install -r ./requirements/vexriscv.txt
 
 # Download and install a RISCV C compiler
 XXXXXX
@@ -53,7 +55,7 @@ source venv/bin/activate
 
 # Install the requirements for the CPUs you want to use, this will also install
 # any common requirements.
-pip install --user requirements/vexriscv.txt
+pip install -r ./requirements/vexriscv.txt
 
 # Download and install a RISCV C compiler
 XXXXXX
@@ -71,7 +73,7 @@ conda activate litex
 
 # Install the requirements for the CPUs you want to use, this will also install
 # any common requirements.
-pip install --user requirements/vexriscv.txt
+pip install -r ./requirements/vexriscv.txt
 
 # Download and install a RISCV C compiler
 conda install gcc-cross-rv32
