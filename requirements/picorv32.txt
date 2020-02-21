@@ -1,4 +1,4 @@
 # Install requirements needed to use the picorv32 soft CPU inside LiteX
--e https://github.com/litex-hub/litex-data-picorv32.git
+-e git+https://github.com/mithro/litex-data-picorv32.git#egg=litex-data-picorv32
 # Install the common requirements that LiteX needs
--r ./requirements.base.txt
+-r base.txt

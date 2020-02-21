@@ -5,4 +5,4 @@
 -r ./requirements/rocket.txt
 -r ./requirements/vexriscv.txt
 # Install the common requirements that LiteX needs
--r ./requirements.base.txt
+-r base.txt

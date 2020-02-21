@@ -1,4 +1,4 @@
 # Install requirements needed to use the blackparrot soft CPU inside LiteX
--e https://github.com/litex-hub/litex-data-blackparrot.git
+-e git+https://github.com/mithro/litex-data-blackparrot.git#egg=litex-data-blackparrot
 # Install the common requirements that LiteX needs
--r ./requirements.base.txt
+-r base.txt
