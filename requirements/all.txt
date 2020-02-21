@@ -1,0 +1,11 @@
+# Install requirements for *all* soft CPUs supported by LiteX!
+-r ./requirements/blackparrot.txt
+-r ./requirements/lm32.txt
+-r ./requirements/microwatt.txt
+-r ./requirements/minerva.txt
+-r ./requirements/mor1kx.txt
+-r ./requirements/picorv32.txt
+-r ./requirements/rocket.txt
+-r ./requirements/vexriscv.txt
+# Install the common requirements that LiteX needs
+-r ./requirements.base.txt

@@ -36,10 +36,6 @@ class MOR1KX(CPU):
         }
 
     @property
-    def gcc_triple(self):
-        return "or1k-elf"
-
-    @property
     def gcc_flags(self):
         flags =  "-mhard-mul "
         flags += "-mhard-div "

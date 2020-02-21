@@ -1,4 +1,4 @@
--e https://github.com/m-labs/migen.git
+-e git+https://github.com/m-labs/migen.git#egg=migen
 -e ./litex-core
 -e ./litedram
 -e ./liteeth
